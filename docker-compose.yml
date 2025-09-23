@@ -1,0 +1,11 @@
+
+services:
+  sp:
+    build: .
+    container_name: simplesaml-sp
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./sp:/var/www/html
+    extra_hosts:
+      - "host.docker.internal:172.18.0.2"
