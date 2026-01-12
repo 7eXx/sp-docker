@@ -1,5 +1,6 @@
 # Service Provider Docker
 This is an easy application to test the SAML 2.0 protocol.
+It creates a Simple Service Provider to used in tests.
 
 ## How to run
 
